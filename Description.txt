@@ -1,0 +1,10 @@
+Face liveness detection is an advanced research topic nowadays due to its significant security applications in various fields. The spoofing problem is a threat to security of the face recognition systems and it can be minimized by detecting the face liveness. 
+three types of such spoofing attacks have been used in the past, to varying degrees of success:
+(i) still-image-based spoofing, 
+(ii) video-based spoofing,
+and (iii) 3D-mask-based spoofing. 
+As the name suggests, still-image-based spoofing attacks present one or more still images of the user to the authentication camera; each
+image is either printed on paper or shown with a digitized display. 
+Video-based spoofing, on the other hand,presents a pre-recorded video of the victim’s moving face in an attempt to trick the system into falsely recognizing motion as an indication of liveness. 
+The 3D-mask-based approach, wherein 3D-printed facial masks are used.
+
