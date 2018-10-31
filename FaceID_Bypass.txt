@@ -41,5 +41,15 @@ pip3 install objection
 
 To verify the objection is up running, run the following command: 
 objection --version 
- 
+
+Connect the rooted device to the host machine which has Objection tool installed in it. 
+Launch the application in the device. 
+Run the following command in terminal to list the processes running in the device:
+$ frida-ps -Ua
+In terminal, run the following command to start the Objection: 
+$ objection --gadget "Application_Name" explore
+# ios ui touchid_bypass
+In test device, click on "Use Face ID" button and try to authenticate into the application with an unauthorized user.
+Note that we are unable to log into the application.
+Click on "Try again" and then click on "Cancel" button. 
  
